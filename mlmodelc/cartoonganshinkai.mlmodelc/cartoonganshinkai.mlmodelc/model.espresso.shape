@@ -1,0 +1,3399 @@
+{
+  "layer_shapes" : {
+    "functional_1\/conv2d_12\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d\/BiasAdd" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/activation_9\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_14\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_6\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_11\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_9\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_18\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_17\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/cropping2d\/strided_slice" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/truediv" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_10\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_2\/Conv2Dx" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_17\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_7\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_4\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_15\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_15\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_4\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_9\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/Reshape_1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_22\/Conv2Dx" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_16\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "Identity" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/reflection_padding2d_17\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_17\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_20\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_5\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_4\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/conv2d_23\/Conv2D" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/reflection_padding2d_19\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_11\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/add_1\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_11\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_17\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_8\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_12\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_16\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_22\/BiasAdd" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/reflection_padding2d_10\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/conv2d_16\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_17\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_3\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_15\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_14\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_3\/MirrorPad_transpose_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/add_6\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_transpose_1\/conv2d_transpose" : {
+      "k" : 257,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 257
+    },
+    "functional_1\/instance_normalization_7\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_22\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_20\/sub" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_16\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_11\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_13\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_7\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_19\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_17\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_3\/BiasAdd" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_11\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_1\/MirrorPad_transpose_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/conv2d_12\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_23\/MirrorPad_pad" : {
+      "k" : 64,
+      "w" : 262,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 262
+    },
+    "functional_1\/activation_5\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_11\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_20\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_9\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/reflection_padding2d_15\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_5\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_14\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_1\/add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_6\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_13\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_18\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_15\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_13\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_20\/add_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_21\/Conv2Dx" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_17\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_16\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_18\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "transpose_43" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_6\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_12\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_8\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_4\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_15\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_10\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_10\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_15\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_21\/BiasAdd" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/reflection_padding2d_13\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_3\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "input_1" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_20\/mul" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_16\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/Mean" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_11\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_22\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d\/Conv2Dx" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_20\/Reshape_1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_6\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "transpose_47" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/add_5\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_13\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_11\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_15\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_18\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_9\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_20\/add" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_2\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_transpose\/conv2d_transpose" : {
+      "k" : 129,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 129
+    },
+    "functional_1\/instance_normalization_16\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_2\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/reflection_padding2d_1\/MirrorPad_pad" : {
+      "k" : 64,
+      "w" : 258,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 258
+    },
+    "functional_1\/instance_normalization_5\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_6\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_5\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_15\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_20\/Mean" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_20\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_4\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_6\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_15\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_1\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_7\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_2\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_16\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_21\/MirrorPad_pad" : {
+      "k" : 128,
+      "w" : 130,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 130
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_10\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_6\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_transpose\/conv2d_transposex" : {
+      "k" : 128,
+      "w" : 129,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 129
+    },
+    "functional_1\/instance_normalization_10\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_10\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_4\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_2\/BiasAdd" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_13\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_22\/Conv2D" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/conv2d_10\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_3\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_5\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_1\/sub" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_10\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_15\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_10\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_2\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_7\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization\/truediv" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_12\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_20\/Reshape" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_7\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/sub" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_3\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_11\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_19\/Mean" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_6\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_8\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/activation_7\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/add_4\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_21\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization\/add" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_9\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_12\/Relu" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/mul" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_19\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/truediv" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_19\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_6\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_3\/MirrorPad_pad" : {
+      "k" : 128,
+      "w" : 130,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 130
+    },
+    "functional_1\/instance_normalization_10\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d\/Conv2D" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_9\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_20\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_16\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/conv2d_9\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_9\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_15\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_8\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_15\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_14\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_5\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_2\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_11\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_17\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_transpose_1\/conv2d_transposex" : {
+      "k" : 64,
+      "w" : 257,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 257
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_14\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_21\/MirrorPad_transpose_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_21\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_4\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_23\/MirrorPad_transpose_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_10\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_5\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_12\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_19\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_19\/mul" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_18\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_4\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_6\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization\/sub" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_18\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_23\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_11\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_16\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_20\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_19\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization\/add_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_14\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_14\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_12\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization\/Reshape" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_22\/MirrorPad_transpose_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/conv2d_8\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_19\/add" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_5\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/activation_3\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/add_3\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_13\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_1\/BiasAdd" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/reflection_padding2d_19\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_14\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_12\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_10\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_10\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_16\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_4\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_5\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_6\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_7\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/add\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_8\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_1\/mul" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_9\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_20\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_11\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_transpose\/BiasAdd" : {
+      "k" : 129,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 129
+    },
+    "functional_1\/reflection_padding2d_5\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/activation_6\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_23\/Conv2Dx" : {
+      "k" : 3,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_3\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_5\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_18\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_2\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_14\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_13\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_18\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_19\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_22\/MirrorPad_pad" : {
+      "k" : 64,
+      "w" : 258,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 258
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/reflection_padding2d_14\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/conv2d_4\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_15\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_17\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_2\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_21\/Conv2D" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_12\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_12\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_20\/truediv" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_15\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_transpose_1\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/conv2d_13\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_18\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_4\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_9\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/cropping2d_1\/strided_slice" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_1\/Mean" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/Reshape_1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_9\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_14\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_13\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_10\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_transpose_1\/BiasAdd" : {
+      "k" : 257,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 257
+    },
+    "functional_1\/instance_normalization_20\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_17\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_7\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_18\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/Sqrt" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_19\/Conv2D" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_13\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_2\/MirrorPad_pad" : {
+      "k" : 128,
+      "w" : 130,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 130
+    },
+    "functional_1\/reflection_padding2d_20\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/conv2d_2\/Conv2D" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_18\/reduce_std\/reduce_variance\/Mean_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_12\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_1\/Reshape" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_15\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/activation\/Relu" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_8\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_12\/reduce_std\/reduce_variance\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_11\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/add_2\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_5\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_6\/sub" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_4\/truediv" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/conv2d_transpose\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_14\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_16\/add_1" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_10\/Reshape_1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_7\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_1\/add_1" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/conv2d_12\/BiasAdd1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/add_7\/add" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/reflection_padding2d_8\/MirrorPad_transpose_1" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_8\/BiasAdd\/ReadVariableOp" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 1,
+      "h" : 1
+    },
+    "functional_1\/instance_normalization_17\/mul" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_1\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/reflection_padding2d_17\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_11\/add" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/conv2d_7\/Conv2Dx" : {
+      "k" : 256,
+      "w" : 64,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/conv2d_23\/BiasAdd" : {
+      "k" : 256,
+      "w" : 3,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 256
+    },
+    "functional_1\/instance_normalization_10\/reduce_std\/reduce_variance\/Square" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_2\/Relu" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/activation_11\/Relu" : {
+      "k" : 128,
+      "w" : 128,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 128
+    },
+    "functional_1\/instance_normalization_14\/reduce_std\/reduce_variance\/Square1" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    },
+    "functional_1\/instance_normalization_9\/reduce_std\/reduce_variance\/Mean" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d_7\/MirrorPad_pad" : {
+      "k" : 256,
+      "w" : 66,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 66
+    },
+    "functional_1\/instance_normalization_6\/Reshape" : {
+      "k" : 1,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 1
+    },
+    "functional_1\/reflection_padding2d\/MirrorPad_pad" : {
+      "k" : 3,
+      "w" : 262,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 262
+    },
+    "functional_1\/conv2d_18\/BiasAdd" : {
+      "k" : 64,
+      "w" : 256,
+      "n" : 1,
+      "_rank" : 4,
+      "h" : 64
+    }
+  }
+}

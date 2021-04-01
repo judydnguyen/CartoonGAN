@@ -1,0 +1,74 @@
+[
+  {
+    "shortDescription" : "",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32)",
+        "shortDescription" : "",
+        "shape" : "[]",
+        "name" : "Identity",
+        "type" : "MultiArray"
+      }
+    ],
+    "version" : "",
+    "modelParameters" : [
+
+    ],
+    "author" : "",
+    "specificationVersion" : 4,
+    "license" : "",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.15",
+      "tvOS" : "13.0",
+      "watchOS" : "6.0",
+      "iOS" : "13.0",
+      "macCatalyst" : "13.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "height" : "256",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "256",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 256 × 256)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "input_1"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "4.0b3",
+      "com.github.apple.coremltools.source" : "tensorflow==2.3.0"
+    },
+    "generatedClassName" : "cartoonganshinkai",
+    "neuralNetworkLayerTypeHistogram" : {
+      "DivideBroadcastable" : 21,
+      "AddBroadcastable" : 45,
+      "UnaryPower" : 21,
+      "UnarySqrt" : 21,
+      "Convolution" : 24,
+      "PaddingReflection" : 24,
+      "Transpose" : 47,
+      "LoadConstantND" : 66,
+      "MultiplyBroadcastable" : 21,
+      "ReduceMean" : 63,
+      "ActivationTanh" : 1,
+      "Deconvolution" : 2,
+      "Add" : 29,
+      "SliceStatic" : 2,
+      "ActivationReLU" : 13,
+      "SubtractBroadcastable" : 42
+    },
+    "method" : "predict"
+  }
+]
